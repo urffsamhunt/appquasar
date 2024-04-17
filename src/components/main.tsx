@@ -1,5 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function Main() {
   return (
@@ -31,6 +45,78 @@ export default function Main() {
             />
           </div>
         </div>
+      </div>
+      <div className="pt-20 pb-20 justify-center max-w-7xl mx-auto">
+        <Carousel>
+          <CarouselContent>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPI</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per Install. Advertiser pays on app installation.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPM</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per thousand Impressions. The advertisers pay for the
+                    number of times an ad is shown.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPC</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per click Advertising. The advertiser pays when a click
+                    is made on an ad.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPR</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per Registration: Pay per complete registration with
+                    the site/App.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPS</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per Sale. Pay per complete sale.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+            <CarouselItem className="basis-1/3">
+              <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
+                <CardHeader>
+                  <CardTitle className="text-green-200">CPL</CardTitle>
+                  <CardDescription className="text-zinc-100 text-lg">
+                    Cost per Lead, meaning that the advertiser pays when a lead
+                    form is completed and submitted.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
     </div>
   );

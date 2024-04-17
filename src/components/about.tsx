@@ -18,7 +18,7 @@ export default function About() {
         </h1>
         <div className="md:flex md:space-x-9">
           <div className="md:w-1/2">
-            <h1 className="text-[#131211] text-2xl font-mono leading-normal transition pt-10">
+            <h1 className="text-[#131211] text-xl md:text-2xl font-mono leading-normal transition pt-10">
               AppQuasar is performance based online advertising platform that
               provides simplified and programmatic digital advertising solutions
               to help businesses grow better. <br />
