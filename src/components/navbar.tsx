@@ -21,7 +21,7 @@ export default function Navbar() {
               </a>
             </div>
             <div className="items-center">
-              <span className="font-sans font-semibold text-2xl text-green-200">
+              <span className="font-sans font-semibold text-xl md:text-2xl text-green-200">
                 AppQuasar
               </span>
             </div>

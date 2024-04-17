@@ -20,7 +20,7 @@ export default function Main() {
     <div className="w-full shadow-xl pl-10 pr-10 pt-52 pb-32">
       <div className="md:flex justify-center max-w-7xl mx-auto">
         <div className="md:w-1/2">
-          <h1 className="text-[#131211] text-7xl font-mono leading-normal hover:text-[#1d1d1d] transition">
+          <h1 className="text-[#131211] text-5xl md:text-7xl font-mono leading-normal hover:text-[#1d1d1d] transition">
             Truly
             <br />
             Effective
@@ -46,67 +46,67 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="pt-20 pb-20 justify-center max-w-7xl mx-auto">
+      <div className="pt-20 pb-20 justify-center max-w-7xl mx-auto pl-5 pr-5">
         <Carousel>
           <CarouselContent>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPI</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPI</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per Install. Advertiser pays on app installation.
                   </CardDescription>
                 </CardHeader>
               </Card>
             </CarouselItem>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPM</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPM</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per thousand Impressions. The advertisers pay for the
                     number of times an ad is shown.
                   </CardDescription>
                 </CardHeader>
               </Card>
             </CarouselItem>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPC</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPC</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per click Advertising. The advertiser pays when a click
                     is made on an ad.
                   </CardDescription>
                 </CardHeader>
               </Card>
             </CarouselItem>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPR</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPR</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per Registration: Pay per complete registration with
                     the site/App.
                   </CardDescription>
                 </CardHeader>
               </Card>
             </CarouselItem>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPS</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPS</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per Sale. Pay per complete sale.
                   </CardDescription>
                 </CardHeader>
               </Card>
             </CarouselItem>
-            <CarouselItem className="basis-1/3">
+            <CarouselItem className="md:basis-1/3">
               <Card className="bg-zinc-800 border-green-200 border-0 shadow-2xl">
                 <CardHeader>
-                  <CardTitle className="text-green-200">CPL</CardTitle>
-                  <CardDescription className="text-zinc-100 text-lg">
+                  <CardTitle className="text-green-200 text-4xl">CPL</CardTitle>
+                  <CardDescription className="text-zinc-100 text-xl">
                     Cost per Lead, meaning that the advertiser pays when a lead
                     form is completed and submitted.
                   </CardDescription>
