@@ -13,12 +13,12 @@ export default function About() {
   return (
     <div className="w-full shadow-2xl pl-10 pr-10" id="about">
       <div className="justify-center max-w-7xl mx-auto pt-24 pb-24">
-        <h1 className="text-[#cbedd4] text-7xl font-mono leading-normal hover:text-[#a3ffba] transition text-center">
+        <h1 className="text-emerald-700 text-7xl font-mono leading-normal hover:text-red-900 transition text-center">
           About Us
         </h1>
         <div className="md:flex md:space-x-9">
           <div className="md:w-1/2">
-            <h1 className="text-[#cbedd4] text-2xl font-mono leading-normal hover:text-[#dcfce4] transition pt-10">
+            <h1 className="text-[#131211] text-2xl font-mono leading-normal transition pt-10">
               AppQuasar is performance based online advertising platform that
               provides simplified and programmatic digital advertising solutions
               to help businesses grow better. <br />

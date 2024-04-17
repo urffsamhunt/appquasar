@@ -6,15 +6,15 @@ export default function Main() {
     <div className="w-full shadow-xl pl-10 pr-10 pt-52 pb-32">
       <div className="md:flex justify-center max-w-7xl mx-auto">
         <div className="md:w-1/2">
-          <h1 className="text-[#cbedd4] text-7xl font-mono leading-normal hover:text-[#dcfce4] transition">
+          <h1 className="text-[#131211] text-7xl font-mono leading-normal hover:text-[#1d1d1d] transition">
             Truly
             <br />
             Effective
-            <p className="text-green-300 hover:text-green-100 transition">
+            <p className="text-emerald-700 hover:text-red-900 transition">
               Marketing
             </p>
           </h1>
-          <p className="text-[#cbedd4] text-2xl font-mono leading-normal hover:text-[#dcfce4] transition pt-10">
+          <p className="text-[#131211] text-2xl font-mono leading-normal transition pt-10">
             A Mobile and App Marketing Service that increases visibility,
             maximizes conversions, and ultimately, create advocates for your
             brand.

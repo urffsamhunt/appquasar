@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className=" shadow-md shadow-black bg-[#00000077] fixed top-0 w-full z-10 backdrop-blur-md pl-10 pr-10">
+    <nav className=" shadow-md shadow-black bg-[#000000e5] fixed top-0 w-full z-10 backdrop-blur-md pl-10 pr-10">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center">
           <div className="flex space-x-3 items-center">

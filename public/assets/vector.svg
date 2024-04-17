@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.4746657"
-     inkscape:cx="-24.073253"
-     inkscape:cy="188.85636"
+     inkscape:zoom="2.9493314"
+     inkscape:cx="124.94357"
+     inkscape:cy="94.428181"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -33,9 +33,10 @@
      inkscape:current-layer="svg12" /><path
      d="M8.53743 93.6287C5.99357 124.156 10.0681 146.619 43.7594 171.499C77.4506 196.378 148.273 181.053 167.463 154.841C186.653 128.628 117.297 151.539 121.492 137.152C125.687 122.766 180.904 116.654 183.645 76.6691C186.387 36.6837 137.47 6.88381 121.492 12.2746C105.514 17.6654 124.929 32.3944 112.634 30.2744C100.338 28.1545 63.5812 10.5122 34.4008 19.8544C5.22042 29.1966 80.5368 49.2619 66.5143 59.8617C52.4918 70.4614 11.0813 63.1014 8.53743 93.6287Z"
      fill="#b1e5be"
-     id="path1" /><path
-     d="M38.7484 44.5668L29.6186 38.046M41.1786 39.8106L37.9295 36.3228"
-     stroke="#1A1511"
+     id="path1"
+     style="stroke:#000000;stroke-opacity:1;stroke-width:2.10000029;stroke-dasharray:none;stroke-dashoffset:0;stroke-linejoin:round;stroke-linecap:round;paint-order:stroke markers fill;fill:#5ae27e;fill-opacity:1" /><path
+     d="m 39.08746,49.648725 -9.1298,-6.5208 m 11.56,1.7646 -3.2491,-3.4878"
+     stroke="#1a1511"
      stroke-width="1.6875"
      stroke-linecap="round"
      stroke-linejoin="round"
