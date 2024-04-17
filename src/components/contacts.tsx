@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <div className="w-full shadow-2xl pl-10 pr-10" id="contact">
       <div className="justify-center max-w-7xl mx-auto pt-24 pb-24">
-        <h1 className="text-emerald-700 text-6xl md:text-7xl font-mono leading-normal hover:text-red-900 transition text-center">
+        <h1 className="text-emerald-700 text-4xl md:text-7xl font-mono leading-normal hover:text-red-900 transition text-center">
           Contact Us
         </h1>
         <div className="md:flex md:space-x-9">
