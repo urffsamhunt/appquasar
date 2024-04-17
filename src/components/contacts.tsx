@@ -20,11 +20,15 @@ export default function Contact() {
           <div className="md:w-1/2">
             <h1 className="text-[#131211] text-2xl font-mono leading-normal transition pt-10">
               <p className=" font-bold">Phone: +91884065900</p>
-              <br />
               or mail us at
               <br />
-              <br />
               <p className=" font-bold">adops@appquasar.com</p>
+              <p>Building No. : 124</p>
+              <p>Kondra</p>
+              <p>Iltiffatganj to Khwaja Road</p>
+              <p>Bhagawat</p>
+              <p>Bharidieh, Ambedkar Nagar</p>
+              <p>Uttar Pradesh - 224151</p>
             </h1>
           </div>
           <div className="md:w-1/2 pt-10">
