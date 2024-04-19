@@ -6,8 +6,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AppQuasar",
-  description: "One-Stop solution to your marketing needs",
+  title: "AppQuasar - The One-Stop solution to your marketing needs",
+  description:
+    "AppQuasar is performance based online advertising platform that provides simplified and programmatic digital advertising solutions to help businesses grow better.",
 };
 
 export default function RootLayout({
