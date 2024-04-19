@@ -38,7 +38,7 @@ export default function Contact() {
                   <CardTitle className="text-green-200">Contact Form</CardTitle>
 
                   <form
-                    action="https://formsubmit.co/patelsameer511@gmail.com"
+                    action="https://formsubmit.co/d53012b1c4000b449bbc1f93b9a6e331"
                     method="POST"
                     className="space-y-5 pt-5"
                   >
