@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "AppQuasar - The One-Stop solution to your marketing needs",
   description:
-    "AppQuasar is performance based online advertising platform that provides simplified and programmatic digital advertising solutions to help businesses grow better.",
+    "AppQuasar is a performance based online advertising platform that provides simplified and programmatic digital advertising solutions.",
 };
 
 export default function RootLayout({
