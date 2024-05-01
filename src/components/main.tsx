@@ -38,7 +38,7 @@ export default function Main() {
           <div className="hidden md:block">
             <Image
               alt="Speaker"
-              src={"/assets/vector.svg"}
+              src={"/assets/vector.png"}
               width="500"
               height="500"
               className="hover:scale-110 transition"
