@@ -19,7 +19,7 @@ export default function Contact() {
         <div className="md:flex md:space-x-9">
           <div className="md:w-1/2">
             <h1 className="text-[#131211] text-2xl font-mono leading-normal transition pt-10">
-              <p className=" font-bold">Phone: +91884065900</p>
+              <p className=" font-bold">Phone: +918840658900</p>
               or mail us at
               <br />
               <p className=" font-bold">adops@appquasar.com</p>
